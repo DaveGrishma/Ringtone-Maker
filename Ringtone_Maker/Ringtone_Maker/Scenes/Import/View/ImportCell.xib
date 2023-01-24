@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.otf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.otf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="ImportCell" customModule="Ringtone_Maker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="875"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="413" height="875"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EG8-Q1-HkP">
+                        <rect key="frame" x="0.0" y="0.0" width="413" height="875"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Import" translatesAutoresizingMaskIntoConstraints="NO" id="SLO-iz-3ms">
+                                <rect key="frame" x="0.0" y="127" width="413" height="325"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Import from PC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9z-YZ-2t4">
+                                <rect key="frame" x="10" y="542" width="393" height="36"/>
+                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Import unlimited music from your computer to make rigntones" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZI-lr-3GF">
+                                <rect key="frame" x="56" y="590" width="302" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="8x2-pE-NaK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="18"/>
+                                <color key="textColor" name="AppGray"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4r8-gd-8cv">
+                                <rect key="frame" x="41.5" y="690" width="330" height="64"/>
+                                <color key="backgroundColor" name="Pink_button"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="0yq-Xs-qo6"/>
+                                    <constraint firstAttribute="height" constant="64" id="lep-mE-jxd"/>
+                                </constraints>
+                                <size key="titleShadowOffset" width="18" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Continue">
+                                    <fontDescription key="titleFontDescription" name="Inter-Bold" family="Inter" pointSize="22"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="lZI-lr-3GF" secondAttribute="trailing" constant="55" id="1ru-dd-Ndh"/>
+                            <constraint firstItem="SLO-iz-3ms" firstAttribute="leading" secondItem="EG8-Q1-HkP" secondAttribute="leading" id="2Io-6X-bkW"/>
+                            <constraint firstAttribute="trailing" secondItem="A9z-YZ-2t4" secondAttribute="trailing" constant="10" id="2ic-bv-k1H"/>
+                            <constraint firstItem="lZI-lr-3GF" firstAttribute="leading" secondItem="EG8-Q1-HkP" secondAttribute="leading" constant="56" id="Asi-gF-A6J"/>
+                            <constraint firstItem="4r8-gd-8cv" firstAttribute="top" secondItem="lZI-lr-3GF" secondAttribute="bottom" constant="45" id="BYL-48-URS"/>
+                            <constraint firstItem="lZI-lr-3GF" firstAttribute="top" secondItem="A9z-YZ-2t4" secondAttribute="bottom" constant="12" id="FUD-Ep-Hk3"/>
+                            <constraint firstItem="A9z-YZ-2t4" firstAttribute="leading" secondItem="EG8-Q1-HkP" secondAttribute="leading" constant="10" id="gfw-sr-Vzf"/>
+                            <constraint firstItem="SLO-iz-3ms" firstAttribute="top" secondItem="EG8-Q1-HkP" secondAttribute="top" constant="127" id="iZU-DV-XLf"/>
+                            <constraint firstAttribute="trailing" secondItem="SLO-iz-3ms" secondAttribute="trailing" id="u9s-qj-m8O"/>
+                            <constraint firstItem="A9z-YZ-2t4" firstAttribute="top" secondItem="SLO-iz-3ms" secondAttribute="bottom" constant="90" id="uet-BW-eZe"/>
+                            <constraint firstItem="4r8-gd-8cv" firstAttribute="centerX" secondItem="EG8-Q1-HkP" secondAttribute="centerX" id="ysr-pb-E6h"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="EG8-Q1-HkP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="UdL-zQ-dax"/>
+                <constraint firstItem="EG8-Q1-HkP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aWj-1f-R5l"/>
+                <constraint firstAttribute="bottom" secondItem="EG8-Q1-HkP" secondAttribute="bottom" id="hrX-Ta-ldp"/>
+                <constraint firstAttribute="trailing" secondItem="EG8-Q1-HkP" secondAttribute="trailing" id="tkR-eg-dzw"/>
+            </constraints>
+            <size key="customSize" width="209" height="134"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="button" destination="4r8-gd-8cv" id="lZH-YL-lax"/>
+                <outlet property="image" destination="SLO-iz-3ms" id="dni-kg-Lho"/>
+                <outlet property="subTitle" destination="lZI-lr-3GF" id="SjD-0M-5T9"/>
+                <outlet property="title" destination="A9z-YZ-2t4" id="blJ-hS-AdK"/>
+            </connections>
+            <point key="canvasLocation" x="252.89855072463769" y="123.88392857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Import" width="344" height="325"/>
+        <namedColor name="AppGray">
+            <color red="0.3843137254901961" green="0.40784313725490196" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Pink_button">
+            <color red="0.96862745098039216" green="0.24705882352941178" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -9,23 +9,119 @@
 /* Begin PBXBuildFile section */
 		B105D079296A78D9002FC71E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105D078296A78D9002FC71E /* AppDelegate.swift */; };
 		B105D07B296A78D9002FC71E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105D07A296A78D9002FC71E /* SceneDelegate.swift */; };
-		B105D07D296A78D9002FC71E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105D07C296A78D9002FC71E /* ViewController.swift */; };
 		B105D080296A78D9002FC71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B105D07E296A78D9002FC71E /* Main.storyboard */; };
 		B105D083296A78D9002FC71E /* Ringtone_Maker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B105D081296A78D9002FC71E /* Ringtone_Maker.xcdatamodeld */; };
 		B105D085296A78DA002FC71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B105D084296A78DA002FC71E /* Assets.xcassets */; };
 		B105D088296A78DA002FC71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B105D086296A78DA002FC71E /* LaunchScreen.storyboard */; };
+		B14B6D3B2979E09900DE3867 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D292979E09900DE3867 /* Roboto-Medium.ttf */; };
+		B14B6D3C2979E09900DE3867 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D2A2979E09900DE3867 /* Roboto-Light.ttf */; };
+		B14B6D3D2979E09900DE3867 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D2B2979E09900DE3867 /* Roboto-Regular.ttf */; };
+		B14B6D3E2979E09900DE3867 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D2C2979E09900DE3867 /* Roboto-MediumItalic.ttf */; };
+		B14B6D3F2979E09900DE3867 /* Roboto-BoldCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D2D2979E09900DE3867 /* Roboto-BoldCondensed.ttf */; };
+		B14B6D402979E09900DE3867 /* Roboto-BoldCondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D2E2979E09900DE3867 /* Roboto-BoldCondensedItalic.ttf */; };
+		B14B6D412979E09900DE3867 /* Roboto-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D2F2979E09900DE3867 /* Roboto-Condensed.ttf */; };
+		B14B6D422979E09900DE3867 /* Roboto_Specimen_Book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D302979E09900DE3867 /* Roboto_Specimen_Book.pdf */; };
+		B14B6D432979E09900DE3867 /* NOTICE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D312979E09900DE3867 /* NOTICE.txt */; };
+		B14B6D442979E09900DE3867 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D322979E09900DE3867 /* Roboto-ThinItalic.ttf */; };
+		B14B6D452979E09900DE3867 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D332979E09900DE3867 /* Roboto-BoldItalic.ttf */; };
+		B14B6D462979E09900DE3867 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D342979E09900DE3867 /* Roboto-LightItalic.ttf */; };
+		B14B6D472979E09900DE3867 /* Roboto-CondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D352979E09900DE3867 /* Roboto-CondensedItalic.ttf */; };
+		B14B6D482979E09900DE3867 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D362979E09900DE3867 /* Roboto-Italic.ttf */; };
+		B14B6D492979E09900DE3867 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D372979E09900DE3867 /* Roboto-BlackItalic.ttf */; };
+		B14B6D4A2979E09900DE3867 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D382979E09900DE3867 /* Roboto-Bold.ttf */; };
+		B14B6D4B2979E09900DE3867 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D392979E09900DE3867 /* Roboto-Thin.ttf */; };
+		B14B6D4C2979E09900DE3867 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14B6D3A2979E09900DE3867 /* Roboto-Black.ttf */; };
+		B18B9D45296B4EFD004E9771 /* ImportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18B9D43296B4EFC004E9771 /* ImportCell.swift */; };
+		B18B9D46296B4EFD004E9771 /* ImportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18B9D44296B4EFD004E9771 /* ImportCell.xib */; };
+		B18B9D49296B5E2A004E9771 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18B9D48296B5E2A004E9771 /* View+Extensions.swift */; };
+		B1901EE9297063E8009B9B11 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1901EE8297063E8009B9B11 /* HomeViewController.swift */; };
+		B1901EEC297068F3009B9B11 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1901EEB297068F3009B9B11 /* HomeCell.swift */; };
+		B1901EEE2970694C009B9B11 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1901EED2970694C009B9B11 /* HomeCell.xib */; };
+		B1A4F3A229790A0E00A55711 /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A4F3A129790A0D00A55711 /* SubscriptionViewController.swift */; };
+		B1A4F3A529790A6900A55711 /* SelectCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A4F3A429790A6900A55711 /* SelectCategoriesViewController.swift */; };
+		B1A57241296A97F20050DD38 /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A5722F296A97F20050DD38 /* Inter-Bold.otf */; };
+		B1A57242296A97F20050DD38 /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57230296A97F20050DD38 /* Inter-Regular.otf */; };
+		B1A57243296A97F20050DD38 /* Inter-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57231296A97F20050DD38 /* Inter-SemiBoldItalic.otf */; };
+		B1A57244296A97F20050DD38 /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57232296A97F20050DD38 /* Inter-Medium.otf */; };
+		B1A57245296A97F20050DD38 /* Inter-Thin-BETA.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57233296A97F20050DD38 /* Inter-Thin-BETA.otf */; };
+		B1A57246296A97F20050DD38 /* Inter-ExtraLight-BETA.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57234296A97F20050DD38 /* Inter-ExtraLight-BETA.otf */; };
+		B1A57247296A97F20050DD38 /* Inter-Light-BETA.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57235296A97F20050DD38 /* Inter-Light-BETA.otf */; };
+		B1A57248296A97F20050DD38 /* Inter-ExtraLightItalic-BETA.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57236296A97F20050DD38 /* Inter-ExtraLightItalic-BETA.otf */; };
+		B1A57249296A97F20050DD38 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57237296A97F20050DD38 /* Inter-SemiBold.otf */; };
+		B1A5724A296A97F20050DD38 /* Inter-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57238296A97F20050DD38 /* Inter-BlackItalic.otf */; };
+		B1A5724B296A97F20050DD38 /* Inter-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57239296A97F20050DD38 /* Inter-MediumItalic.otf */; };
+		B1A5724C296A97F20050DD38 /* Inter-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A5723A296A97F20050DD38 /* Inter-Black.otf */; };
+		B1A5724D296A97F20050DD38 /* Inter-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A5723B296A97F20050DD38 /* Inter-Italic.otf */; };
+		B1A5724E296A97F20050DD38 /* Inter-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A5723C296A97F20050DD38 /* Inter-ExtraBold.otf */; };
+		B1A5724F296A97F20050DD38 /* Inter-LightItalic-BETA.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A5723D296A97F20050DD38 /* Inter-LightItalic-BETA.otf */; };
+		B1A57250296A97F20050DD38 /* Inter-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A5723E296A97F20050DD38 /* Inter-ExtraBoldItalic.otf */; };
+		B1A57251296A97F20050DD38 /* Inter-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A5723F296A97F20050DD38 /* Inter-BoldItalic.otf */; };
+		B1A57252296A97F20050DD38 /* Inter-ThinItalic-BETA.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1A57240296A97F20050DD38 /* Inter-ThinItalic-BETA.otf */; };
+		B1A57254296A9D180050DD38 /* ImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A57253296A9D180050DD38 /* ImportViewController.swift */; };
+		B1C1E6E629790D1A00932B50 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C1E6E429790D1A00932B50 /* Categories.swift */; };
+		B1C1E6E729790D1A00932B50 /* Categories.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C1E6E529790D1A00932B50 /* Categories.xib */; };
+		F0AB9BC88317CC5BAECCB9CE /* Pods_Ringtone_Maker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4021820D69390563C793D5 /* Pods_Ringtone_Maker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1411B20157E02A7423929222 /* Pods-Ringtone_Maker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ringtone_Maker.release.xcconfig"; path = "Target Support Files/Pods-Ringtone_Maker/Pods-Ringtone_Maker.release.xcconfig"; sourceTree = "<group>"; };
+		3F1E0D1C966356BE1503E991 /* Pods-Ringtone_Maker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ringtone_Maker.debug.xcconfig"; path = "Target Support Files/Pods-Ringtone_Maker/Pods-Ringtone_Maker.debug.xcconfig"; sourceTree = "<group>"; };
+		9A4021820D69390563C793D5 /* Pods_Ringtone_Maker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ringtone_Maker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B105D075296A78D9002FC71E /* Ringtone_Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ringtone_Maker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B105D078296A78D9002FC71E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B105D07A296A78D9002FC71E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B105D07C296A78D9002FC71E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B105D07F296A78D9002FC71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B105D082296A78D9002FC71E /* Ringtone_Maker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ringtone_Maker.xcdatamodel; sourceTree = "<group>"; };
 		B105D084296A78DA002FC71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B105D087296A78DA002FC71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B105D089296A78DA002FC71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14B6D292979E09900DE3867 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		B14B6D2A2979E09900DE3867 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		B14B6D2B2979E09900DE3867 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B14B6D2C2979E09900DE3867 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B14B6D2D2979E09900DE3867 /* Roboto-BoldCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensed.ttf"; sourceTree = "<group>"; };
+		B14B6D2E2979E09900DE3867 /* Roboto-BoldCondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensedItalic.ttf"; sourceTree = "<group>"; };
+		B14B6D2F2979E09900DE3867 /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Condensed.ttf"; sourceTree = "<group>"; };
+		B14B6D302979E09900DE3867 /* Roboto_Specimen_Book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Roboto_Specimen_Book.pdf; sourceTree = "<group>"; };
+		B14B6D312979E09900DE3867 /* NOTICE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE.txt; sourceTree = "<group>"; };
+		B14B6D322979E09900DE3867 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B14B6D332979E09900DE3867 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B14B6D342979E09900DE3867 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		B14B6D352979E09900DE3867 /* Roboto-CondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-CondensedItalic.ttf"; sourceTree = "<group>"; };
+		B14B6D362979E09900DE3867 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		B14B6D372979E09900DE3867 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B14B6D382979E09900DE3867 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		B14B6D392979E09900DE3867 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		B14B6D3A2979E09900DE3867 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		B18B9D43296B4EFC004E9771 /* ImportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportCell.swift; sourceTree = "<group>"; };
+		B18B9D44296B4EFD004E9771 /* ImportCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImportCell.xib; sourceTree = "<group>"; };
+		B18B9D48296B5E2A004E9771 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		B1901EE8297063E8009B9B11 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B1901EEB297068F3009B9B11 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		B1901EED2970694C009B9B11 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		B1A4F3A129790A0D00A55711 /* SubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
+		B1A4F3A429790A6900A55711 /* SelectCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoriesViewController.swift; sourceTree = "<group>"; };
+		B1A5722F296A97F20050DD38 /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		B1A57230296A97F20050DD38 /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
+		B1A57231296A97F20050DD38 /* Inter-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		B1A57232296A97F20050DD38 /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
+		B1A57233296A97F20050DD38 /* Inter-Thin-BETA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin-BETA.otf"; sourceTree = "<group>"; };
+		B1A57234296A97F20050DD38 /* Inter-ExtraLight-BETA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight-BETA.otf"; sourceTree = "<group>"; };
+		B1A57235296A97F20050DD38 /* Inter-Light-BETA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light-BETA.otf"; sourceTree = "<group>"; };
+		B1A57236296A97F20050DD38 /* Inter-ExtraLightItalic-BETA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLightItalic-BETA.otf"; sourceTree = "<group>"; };
+		B1A57237296A97F20050DD38 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		B1A57238296A97F20050DD38 /* Inter-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-BlackItalic.otf"; sourceTree = "<group>"; };
+		B1A57239296A97F20050DD38 /* Inter-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-MediumItalic.otf"; sourceTree = "<group>"; };
+		B1A5723A296A97F20050DD38 /* Inter-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.otf"; sourceTree = "<group>"; };
+		B1A5723B296A97F20050DD38 /* Inter-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Italic.otf"; sourceTree = "<group>"; };
+		B1A5723C296A97F20050DD38 /* Inter-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.otf"; sourceTree = "<group>"; };
+		B1A5723D296A97F20050DD38 /* Inter-LightItalic-BETA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-LightItalic-BETA.otf"; sourceTree = "<group>"; };
+		B1A5723E296A97F20050DD38 /* Inter-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		B1A5723F296A97F20050DD38 /* Inter-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-BoldItalic.otf"; sourceTree = "<group>"; };
+		B1A57240296A97F20050DD38 /* Inter-ThinItalic-BETA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ThinItalic-BETA.otf"; sourceTree = "<group>"; };
+		B1A57253296A9D180050DD38 /* ImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportViewController.swift; sourceTree = "<group>"; };
+		B1C1E6E429790D1A00932B50 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		B1C1E6E529790D1A00932B50 /* Categories.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Categories.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +129,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AB9BC88317CC5BAECCB9CE /* Pods_Ringtone_Maker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58407AB368537A7FF651459B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A4021820D69390563C793D5 /* Pods_Ringtone_Maker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B105D06C296A78D9002FC71E = {
 			isa = PBXGroup;
 			children = (
 				B105D077296A78D9002FC71E /* Ringtone_Maker */,
 				B105D076296A78D9002FC71E /* Products */,
+				CA75C2F6F6266C0DA30C35B7 /* Pods */,
+				58407AB368537A7FF651459B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +165,10 @@
 		B105D077296A78D9002FC71E /* Ringtone_Maker */ = {
 			isa = PBXGroup;
 			children = (
+				B18B9D47296B5DF4004E9771 /* Extensions */,
+				B105D08F296A7945002FC71E /* Scenes */,
 				B105D078296A78D9002FC71E /* AppDelegate.swift */,
 				B105D07A296A78D9002FC71E /* SceneDelegate.swift */,
-				B105D07C296A78D9002FC71E /* ViewController.swift */,
 				B105D07E296A78D9002FC71E /* Main.storyboard */,
 				B105D084296A78DA002FC71E /* Assets.xcassets */,
 				B105D086296A78DA002FC71E /* LaunchScreen.storyboard */,
@@ -70,6 +178,158 @@
 			path = Ringtone_Maker;
 			sourceTree = "<group>";
 		};
+		B105D08F296A7945002FC71E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B1A4F3A329790A3C00A55711 /* SelectCategories */,
+				B1A4F3A0297909EB00A55711 /* Subscription */,
+				B1901EE72970630E009B9B11 /* Home */,
+				B105D090296A7967002FC71E /* Import */,
+				B1A5722D296A97CB0050DD38 /* Font */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B105D090296A7967002FC71E /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				B18B9D42296B4ECB004E9771 /* View */,
+				B1A57253296A9D180050DD38 /* ImportViewController.swift */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		B14B6D282979E09900DE3867 /* roboto */ = {
+			isa = PBXGroup;
+			children = (
+				B14B6D292979E09900DE3867 /* Roboto-Medium.ttf */,
+				B14B6D2A2979E09900DE3867 /* Roboto-Light.ttf */,
+				B14B6D2B2979E09900DE3867 /* Roboto-Regular.ttf */,
+				B14B6D2C2979E09900DE3867 /* Roboto-MediumItalic.ttf */,
+				B14B6D2D2979E09900DE3867 /* Roboto-BoldCondensed.ttf */,
+				B14B6D2E2979E09900DE3867 /* Roboto-BoldCondensedItalic.ttf */,
+				B14B6D2F2979E09900DE3867 /* Roboto-Condensed.ttf */,
+				B14B6D302979E09900DE3867 /* Roboto_Specimen_Book.pdf */,
+				B14B6D312979E09900DE3867 /* NOTICE.txt */,
+				B14B6D322979E09900DE3867 /* Roboto-ThinItalic.ttf */,
+				B14B6D332979E09900DE3867 /* Roboto-BoldItalic.ttf */,
+				B14B6D342979E09900DE3867 /* Roboto-LightItalic.ttf */,
+				B14B6D352979E09900DE3867 /* Roboto-CondensedItalic.ttf */,
+				B14B6D362979E09900DE3867 /* Roboto-Italic.ttf */,
+				B14B6D372979E09900DE3867 /* Roboto-BlackItalic.ttf */,
+				B14B6D382979E09900DE3867 /* Roboto-Bold.ttf */,
+				B14B6D392979E09900DE3867 /* Roboto-Thin.ttf */,
+				B14B6D3A2979E09900DE3867 /* Roboto-Black.ttf */,
+			);
+			name = roboto;
+			path = ../../../../../../../../Grishma/Downloads/roboto;
+			sourceTree = "<group>";
+		};
+		B18B9D42296B4ECB004E9771 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B18B9D43296B4EFC004E9771 /* ImportCell.swift */,
+				B18B9D44296B4EFD004E9771 /* ImportCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B18B9D47296B5DF4004E9771 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B18B9D48296B5E2A004E9771 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B1901EE72970630E009B9B11 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B1901EEA297068CD009B9B11 /* View */,
+				B1901EE8297063E8009B9B11 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1901EEA297068CD009B9B11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1901EEB297068F3009B9B11 /* HomeCell.swift */,
+				B1901EED2970694C009B9B11 /* HomeCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1A4F3A0297909EB00A55711 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				B1A4F3A129790A0D00A55711 /* SubscriptionViewController.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		B1A4F3A329790A3C00A55711 /* SelectCategories */ = {
+			isa = PBXGroup;
+			children = (
+				B1C1E6E329790CF800932B50 /* View */,
+				B1A4F3A429790A6900A55711 /* SelectCategoriesViewController.swift */,
+			);
+			path = SelectCategories;
+			sourceTree = "<group>";
+		};
+		B1A5722D296A97CB0050DD38 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B14B6D282979E09900DE3867 /* roboto */,
+				B1A5722E296A97F20050DD38 /* inter-cufonfonts */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		B1A5722E296A97F20050DD38 /* inter-cufonfonts */ = {
+			isa = PBXGroup;
+			children = (
+				B1A5722F296A97F20050DD38 /* Inter-Bold.otf */,
+				B1A57230296A97F20050DD38 /* Inter-Regular.otf */,
+				B1A57231296A97F20050DD38 /* Inter-SemiBoldItalic.otf */,
+				B1A57232296A97F20050DD38 /* Inter-Medium.otf */,
+				B1A57233296A97F20050DD38 /* Inter-Thin-BETA.otf */,
+				B1A57234296A97F20050DD38 /* Inter-ExtraLight-BETA.otf */,
+				B1A57235296A97F20050DD38 /* Inter-Light-BETA.otf */,
+				B1A57236296A97F20050DD38 /* Inter-ExtraLightItalic-BETA.otf */,
+				B1A57237296A97F20050DD38 /* Inter-SemiBold.otf */,
+				B1A57238296A97F20050DD38 /* Inter-BlackItalic.otf */,
+				B1A57239296A97F20050DD38 /* Inter-MediumItalic.otf */,
+				B1A5723A296A97F20050DD38 /* Inter-Black.otf */,
+				B1A5723B296A97F20050DD38 /* Inter-Italic.otf */,
+				B1A5723C296A97F20050DD38 /* Inter-ExtraBold.otf */,
+				B1A5723D296A97F20050DD38 /* Inter-LightItalic-BETA.otf */,
+				B1A5723E296A97F20050DD38 /* Inter-ExtraBoldItalic.otf */,
+				B1A5723F296A97F20050DD38 /* Inter-BoldItalic.otf */,
+				B1A57240296A97F20050DD38 /* Inter-ThinItalic-BETA.otf */,
+			);
+			name = "inter-cufonfonts";
+			path = "../../../../../../../../Grishma/Downloads/inter-cufonfonts";
+			sourceTree = "<group>";
+		};
+		B1C1E6E329790CF800932B50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1C1E6E429790D1A00932B50 /* Categories.swift */,
+				B1C1E6E529790D1A00932B50 /* Categories.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA75C2F6F6266C0DA30C35B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E0D1C966356BE1503E991 /* Pods-Ringtone_Maker.debug.xcconfig */,
+				1411B20157E02A7423929222 /* Pods-Ringtone_Maker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B105D08C296A78DA002FC71E /* Build configuration list for PBXNativeTarget "Ringtone_Maker" */;
 			buildPhases = (
+				6059EA06F46AB2A7FEA8B44F /* [CP] Check Pods Manifest.lock */,
 				B105D071296A78D9002FC71E /* Sources */,
 				B105D072296A78D9002FC71E /* Frameworks */,
 				B105D073296A78D9002FC71E /* Resources */,
+				D3A03E701CEA09D623F931A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,22 +390,110 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A57244296A97F20050DD38 /* Inter-Medium.otf in Resources */,
 				B105D088296A78DA002FC71E /* LaunchScreen.storyboard in Resources */,
+				B1A57242296A97F20050DD38 /* Inter-Regular.otf in Resources */,
+				B1A57241296A97F20050DD38 /* Inter-Bold.otf in Resources */,
+				B14B6D3E2979E09900DE3867 /* Roboto-MediumItalic.ttf in Resources */,
+				B18B9D46296B4EFD004E9771 /* ImportCell.xib in Resources */,
+				B14B6D3B2979E09900DE3867 /* Roboto-Medium.ttf in Resources */,
+				B14B6D3D2979E09900DE3867 /* Roboto-Regular.ttf in Resources */,
+				B14B6D402979E09900DE3867 /* Roboto-BoldCondensedItalic.ttf in Resources */,
+				B1C1E6E729790D1A00932B50 /* Categories.xib in Resources */,
+				B14B6D442979E09900DE3867 /* Roboto-ThinItalic.ttf in Resources */,
+				B14B6D4C2979E09900DE3867 /* Roboto-Black.ttf in Resources */,
 				B105D085296A78DA002FC71E /* Assets.xcassets in Resources */,
+				B1A57245296A97F20050DD38 /* Inter-Thin-BETA.otf in Resources */,
+				B1A57248296A97F20050DD38 /* Inter-ExtraLightItalic-BETA.otf in Resources */,
+				B14B6D462979E09900DE3867 /* Roboto-LightItalic.ttf in Resources */,
+				B1A5724E296A97F20050DD38 /* Inter-ExtraBold.otf in Resources */,
+				B1A5724C296A97F20050DD38 /* Inter-Black.otf in Resources */,
+				B1A57251296A97F20050DD38 /* Inter-BoldItalic.otf in Resources */,
+				B1A57252296A97F20050DD38 /* Inter-ThinItalic-BETA.otf in Resources */,
+				B14B6D492979E09900DE3867 /* Roboto-BlackItalic.ttf in Resources */,
+				B14B6D3F2979E09900DE3867 /* Roboto-BoldCondensed.ttf in Resources */,
+				B14B6D422979E09900DE3867 /* Roboto_Specimen_Book.pdf in Resources */,
+				B14B6D4A2979E09900DE3867 /* Roboto-Bold.ttf in Resources */,
+				B1A57246296A97F20050DD38 /* Inter-ExtraLight-BETA.otf in Resources */,
 				B105D080296A78D9002FC71E /* Main.storyboard in Resources */,
+				B14B6D432979E09900DE3867 /* NOTICE.txt in Resources */,
+				B1A5724F296A97F20050DD38 /* Inter-LightItalic-BETA.otf in Resources */,
+				B14B6D412979E09900DE3867 /* Roboto-Condensed.ttf in Resources */,
+				B1A57243296A97F20050DD38 /* Inter-SemiBoldItalic.otf in Resources */,
+				B14B6D482979E09900DE3867 /* Roboto-Italic.ttf in Resources */,
+				B1A57247296A97F20050DD38 /* Inter-Light-BETA.otf in Resources */,
+				B1A57250296A97F20050DD38 /* Inter-ExtraBoldItalic.otf in Resources */,
+				B1A5724D296A97F20050DD38 /* Inter-Italic.otf in Resources */,
+				B1A5724B296A97F20050DD38 /* Inter-MediumItalic.otf in Resources */,
+				B14B6D3C2979E09900DE3867 /* Roboto-Light.ttf in Resources */,
+				B1A5724A296A97F20050DD38 /* Inter-BlackItalic.otf in Resources */,
+				B14B6D472979E09900DE3867 /* Roboto-CondensedItalic.ttf in Resources */,
+				B1A57249296A97F20050DD38 /* Inter-SemiBold.otf in Resources */,
+				B14B6D452979E09900DE3867 /* Roboto-BoldItalic.ttf in Resources */,
+				B14B6D4B2979E09900DE3867 /* Roboto-Thin.ttf in Resources */,
+				B1901EEE2970694C009B9B11 /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6059EA06F46AB2A7FEA8B44F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ringtone_Maker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A03E701CEA09D623F931A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ringtone_Maker/Pods-Ringtone_Maker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ringtone_Maker/Pods-Ringtone_Maker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ringtone_Maker/Pods-Ringtone_Maker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B105D071296A78D9002FC71E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A4F3A229790A0E00A55711 /* SubscriptionViewController.swift in Sources */,
 				B105D083296A78D9002FC71E /* Ringtone_Maker.xcdatamodeld in Sources */,
-				B105D07D296A78D9002FC71E /* ViewController.swift in Sources */,
+				B1A57254296A9D180050DD38 /* ImportViewController.swift in Sources */,
+				B1901EEC297068F3009B9B11 /* HomeCell.swift in Sources */,
+				B18B9D49296B5E2A004E9771 /* View+Extensions.swift in Sources */,
 				B105D079296A78D9002FC71E /* AppDelegate.swift in Sources */,
+				B1C1E6E629790D1A00932B50 /* Categories.swift in Sources */,
+				B1A4F3A529790A6900A55711 /* SelectCategoriesViewController.swift in Sources */,
+				B18B9D45296B4EFD004E9771 /* ImportCell.swift in Sources */,
+				B1901EE9297063E8009B9B11 /* HomeViewController.swift in Sources */,
 				B105D07B296A78D9002FC71E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +638,7 @@
 		};
 		B105D08D296A78DA002FC71E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1E0D1C966356BE1503E991 /* Pods-Ringtone_Maker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +666,7 @@
 		};
 		B105D08E296A78DA002FC71E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1411B20157E02A7423929222 /* Pods-Ringtone_Maker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

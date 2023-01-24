@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.otf">
+            <string>Inter-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="category" rowHeight="100" id="KGk-i7-Jjw" customClass="Categories" customModule="Ringtone_Maker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dp" translatesAutoresizingMaskIntoConstraints="NO" id="bwO-If-cm0">
+                        <rect key="frame" x="25" y="12" width="52" height="52"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="52" id="0Ff-VN-wJ3"/>
+                            <constraint firstAttribute="height" constant="52" id="Gmn-DZ-Iy2"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hip Hop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DpQ-Bf-N68">
+                        <rect key="frame" x="93" y="27" width="69.5" height="22"/>
+                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="18"/>
+                        <color key="textColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qv0-d9-Zfz">
+                        <rect key="frame" x="325" y="26" width="24" height="24"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="RjR-3Y-LE3"/>
+                            <constraint firstAttribute="width" constant="24" id="idP-cb-mgv"/>
+                        </constraints>
+                        <color key="tintColor" systemColor="tintColor"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="UnChecked">
+                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <state key="selected" image="Checked">
+                            <color key="titleColor" systemColor="tintColor"/>
+                        </state>
+                        <connections>
+                            <action selector="didTapOnCheckWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Vpv-av-8Fy"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DpQ-Bf-N68" firstAttribute="centerY" secondItem="bwO-If-cm0" secondAttribute="centerY" id="Fgt-Lf-CaK"/>
+                    <constraint firstItem="qv0-d9-Zfz" firstAttribute="centerY" secondItem="DpQ-Bf-N68" secondAttribute="centerY" id="U7M-B1-NGd"/>
+                    <constraint firstItem="DpQ-Bf-N68" firstAttribute="leading" secondItem="bwO-If-cm0" secondAttribute="trailing" constant="16" id="ZsW-F2-X6G"/>
+                    <constraint firstAttribute="trailing" secondItem="qv0-d9-Zfz" secondAttribute="trailing" constant="25" id="bjZ-SF-doS"/>
+                    <constraint firstItem="bwO-If-cm0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="piD-gg-lim"/>
+                    <constraint firstAttribute="bottom" secondItem="bwO-If-cm0" secondAttribute="bottom" constant="12" id="qgo-lJ-7FU"/>
+                    <constraint firstItem="bwO-If-cm0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="z9c-70-MLD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnChecked" destination="qv0-d9-Zfz" id="Sjb-77-GMx"/>
+            </connections>
+            <point key="canvasLocation" x="208.69565217391306" y="114.17410714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Checked" width="24" height="24"/>
+        <image name="Dp" width="52" height="52"/>
+        <image name="UnChecked" width="24" height="24"/>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
